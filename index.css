@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+/* font faces */    
+
+@font-face {
+    font-family: Danube ;
+    src: url(./fonts/Danube.ttf);
+}
+
+@font-face {
+    font-family: Montserrat ;
+    src: url(./fonts/Montserrat.ttf);
+}
+
+/* headerOne */
+
+h1 {
+    margin-left: 20px;
+    font-family: Danube;
+}
+
+.header_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    height: max-content;
+}
+
+.button {
+    
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 20px;
+    max-height: max-content;
+}
+
+#boutique{
+    width: 120px;
+}
+
+#espace_client {
+    width: 140px;
+}
+
+.blue_button{
+    background-color: #4876EA;
+    height: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: medium;
+    border-radius: 8px;
+    border: 0px;
+    margin: 0 10px;
+    height: max-content;
+    
+}
+
+.blue_button:hover {
+    background-color: #224ab1;
+    cursor: pointer;
+}
+
+
+
+.header_two {
+    background-color: #EAEAEA;
+    display: flex;
+    border-top: 3px rgb(164, 164, 164) solid;
+    border-bottom: 3px rgb(164, 164, 164) solid;
+
+
+}
+
+.header_two p {
+    margin: 15px ;
+}
+
+.header_two div:hover{
+    background-color: #929090;
+    cursor: pointer;
+}
+
+
+
