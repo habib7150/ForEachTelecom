@@ -5,6 +5,11 @@
     
 }
 
+body{
+    overflow-x:hidden;
+
+}
+
 /* font faces */    
 
 @font-face {
@@ -106,13 +111,14 @@ h1 {
 
 /* telephonie */
 
-#telephonie {
+#sectionOne {
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: baseline;
     font-size: x-large;
+    padding-bottom: 20px;
     
 }
 
@@ -124,15 +130,17 @@ h2 {
 #phone_boxes{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
     width: 1400px;
 
 }
 
 .phone {
     background-color: white;
-    width: 400px;
-    height: 400px;
+    margin-left: 10px;
+    width: 320px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
@@ -145,7 +153,7 @@ h2 {
 }
 
 .phone img{
-    max-width: 200px;
+    max-width: 120px;
 }
 .version p {
   color: #4876EA;
@@ -169,6 +177,20 @@ h2 {
 .quatreFois {
     background-color: #EAEAEA;
     border-radius: 10px;
+    width: max-content;
+    font-weight: bold ;
+}
+
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: center;
+}
+
+.sectionTwo img {
+
 }
 
 
